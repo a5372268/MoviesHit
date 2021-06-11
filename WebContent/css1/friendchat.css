@@ -1,0 +1,136 @@
+* {
+	margin: auto;
+	padding: 0px;
+}
+
+html, body {
+	font: 15px verdana, Times New Roman, arial, helvetica, sans-serif,
+		Microsoft JhengHei;
+	width: 90%;
+	height: 90%;
+/* 	background: #eeeeda; */
+}
+
+.panel {
+	float: right;
+	border: 5px solid #6c757d45;
+	border-radius: 5px;
+	width: 50%;
+}
+.panel1 {
+	border: 5px solid rgb(0 0 0 / 15%);
+	border-radius: 5px;
+	width:50%;
+}
+
+.message-area {
+	height: 70%;
+	resize: none;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: #ffffff;
+	min-width: 60%;
+	width:66%;
+	float:right;
+}
+
+.input-area {
+	background: #24cac9;
+/* 	box-shadow: inset 0 0 10px #00568c; */
+	min-width: 60%;
+	width:66%;
+}
+
+.input-area input {
+	margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.text-field {
+	border: 1px solid var(--gray);
+	padding: 0.2em;
+	box-shadow: 0 0 5px #deb7b7;
+}
+.button{
+/* 	background: yellow; */
+}
+
+h1 {
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+}
+
+#message {
+	min-width: 62%;
+	max-width: 60%;
+}
+
+.statusOutput {
+	background: #24cac9;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #343a4042;
+    padding: 0.2em;
+    box-shadow: 0 0 5px #00000052;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 52%;
+}
+
+#row {
+	float: left;
+	width: 33%;
+	height:70%;
+/* 	background-color:lightblue; */
+}
+
+.column {
+  float: initial;
+  width: 50%;
+  padding: 5%;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  display:inline-block;
+  clear: both;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend{
+  background: #eee;
+  float: left;
+}
+
+.me{
+  float: right;
+  background: #343a40;
+  color: #fff;
+}
+
+.friend + .me{
+  border-bottom-right-radius: 5px;
+}
+
+.me + .me{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+  border-bottom-right-radius: 30px;
+}
+.mem-block{
+	border: 1px solid rgb(0 0 0 / 15%);
+	
+}
